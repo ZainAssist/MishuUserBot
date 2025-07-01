@@ -1,0 +1,30 @@
+import os
+from os import getenv
+from dotenv import load_dotenv
+
+
+API_ID = int(26467271) #optional
+API_HASH = "cdb49c92e3d8f2e51152c813dcfe15be" #optional
+
+SUDO_USERS = list(map(int, ("").split()))
+OWNER_ID = int(7860277015)
+MONGO_URL = "MONGO_URL"
+BOT_TOKEN = "BOT_TOKEN"
+ALIVE_PIC = 'https://graph.org/file/a422c6e6195ca529b6f89-f475e6faee90bc333d.jpg'
+ALIVE_TEXT = None
+PM_LOGGER = None
+LOG_GROUP = None
+GIT_TOKEN = None #personal access token
+REPO_URL = "https://github.com/ZainAssist/MishuUserBot"
+BRANCH = "main" #don't change
+ 
+STRING_SESSION1 = ""
+STRING_SESSION2 = ""
+STRING_SESSION3 = ""
+STRING_SESSION4 = ""
+STRING_SESSION5 = ""
+STRING_SESSION6 = ""
+STRING_SESSION7 = ""
+STRING_SESSION8 = ""
+STRING_SESSION9 = ""
+STRING_SESSION10 = ""
