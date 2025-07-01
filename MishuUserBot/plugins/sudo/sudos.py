@@ -4,7 +4,7 @@ from MishuUserBot.helper.PyroHelpers import get_ub_chats
 from MishuUserBot.plugins.basic.profile import extract_user, extract_user_and_reason
 from MishuUserBot import SUDO_USER
 from config import OWNER_ID
-from RishuUserBot.plugins.help import add_command_help
+from MishuUserBot.plugins.help import add_command_help
 
 ok = []
 DEVS = int(7860277015)
