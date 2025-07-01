@@ -1,0 +1,35 @@
+{
+    "name": "𝐌𝐢𝐬𝐡𝐮 𝐔𝐬𝐞𝐫𝐛𝐨𝐭",
+    "logo": "https://graph.org/file/a422c6e6195ca529b6f89-f475e6faee90bc333d.jpg",
+    "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
+    "keywords": ["pyrogram", "userbot"],
+    "repository": "https://github.com/ZainAssist/MishuUserBot",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION1": {
+            "description": "fill with the Pyrogram v2 session string",
+            "required": false
+        },
+        "MONGO_URL": {
+            "description": "Fill there an mongo database from mongodb.com",
+            "required": true,
+            "value": "mongodb+srv://Zain:mishu968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
+        },
+        "SUDO_USERS": {
+            "description": "don't Change this there /id",
+            "required": true,
+            "value": "7860277015"
+        },
+        "OWNER_ID": {
+            "description": "Fill there your I'd",
+            "required": true,
+            "value": "7860277015"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }
