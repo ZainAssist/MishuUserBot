@@ -20,7 +20,7 @@ async def hello(client: app, message):
                 InlineKeyboardButton("˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/About_Zain"),
             ],
             [
-                InlineKeyboardButton("˹ sᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/MusicOnMasti"),
+                InlineKeyboardButton("˹ sᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/+u7vfH3h-zNMzODZl"),
                 InlineKeyboardButton("˹ ᴍᴜsɪᴄ ˼", url="https://t.me/MusicOnMasti"),
             ],
             ]
