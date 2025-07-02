@@ -173,10 +173,10 @@ async def hello_world(client: Client, message: Message):
 
 
 @Client.on_message(
-    filters.me & (filters.command(["rishu"], ".") | filters.regex("^rishuu"))
+    filters.me & (filters.command(["mishu"], ".") | filters.regex("^rishuu"))
 )
 async def hello_world(client: Client, message: Message):
-    mg = await edit_or_reply(message, "ʀɪsʜᴜ")
+    mg = await edit_or_reply(message, "ᴍɪsʜᴜ")
     await asyncio.sleep(0.3)
     await mg.edit("sʙᴋᴀ ʙᴀᴀᴘ")
     await asyncio.sleep(0.4)
