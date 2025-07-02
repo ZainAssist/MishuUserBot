@@ -254,7 +254,7 @@ async def hajqag(client: Client, message: Message):
         return
     animation_interval = 3
     animation_ttl = range(0, 18)
-    await message.edit("Calling ㅤ ʀɪsʜᴜ (𝐁ᴀᴀᴘ of telegram)......")
+    await message.edit("Calling ㅤ Zainu (𝐁ᴀᴀᴘ of telegram)......")
     animation_chars = [
         "`Connecting To Telegram #ᴢᴀɪɴᴜ`",
         "`Call Connected.`",
@@ -539,7 +539,7 @@ async def hak(client: Client, message: Message):
     await message.edit_text("Hacking complete!\nUploading file...")
     await asyncio.sleep(2)
     await message.edit_text(
-        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nWhatsApp Database:\n`./DOWNLOADS/msgstore.db.crypt12`  [ʀɪsʜᴜ](https://t.me/rishu1286)"
+        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nWhatsApp Database:\n`./DOWNLOADS/msgstore.db.crypt12`  [Zainu](https://t.me/Uff_Zainu)"
     )
 
 
