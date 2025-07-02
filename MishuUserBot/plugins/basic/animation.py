@@ -122,7 +122,7 @@ async def _(client: Client, message: Message):
     await edit_or_reply(message, reply_text)
 
 
-@Client.on_message(filters.command("wink", ".") & filters.me)
+@Client.on_message(filters.command(["wink"], ".") & filters.me)
 async def wink(client: Client, message: Message):
     hmm_s = "https://some-random-api.ml/animu/wink"
     r = requests.get(url=hmm_s).json()
@@ -131,7 +131,7 @@ async def wink(client: Client, message: Message):
     await message.delete()
 
 
-@Client.on_message(filters.command("hug", ".") & filters.me)
+@Client.on_message(filters.command(["hug"], ".") & filters.me)
 async def hug(client: Client, message: Message):
     hmm_s = "https://some-random-api.ml/animu/hug"
     r = requests.get(url=hmm_s).json()
@@ -140,7 +140,7 @@ async def hug(client: Client, message: Message):
     await message.delete()
 
 
-@Client.on_message(filters.command("pat", ".") & filters.me)
+@Client.on_message(filters.command(["pat"], ".") & filters.me)
 async def pat(client: Client, message: Message):
     hmm_s = "https://some-random-api.ml/animu/pat"
     r = requests.get(url=hmm_s).json()
@@ -149,7 +149,7 @@ async def pat(client: Client, message: Message):
     await message.delete()
 
 
-@Client.on_message(filters.command("pikachu", ".") & filters.me)
+@Client.on_message(filters.command(["pikachu"], ".") & filters.me)
 async def pikachu(client: Client, message: Message):
     hmm_s = "https://some-random-api.ml/img/pikachu"
     r = requests.get(url=hmm_s).json()
@@ -164,7 +164,7 @@ async def pikachu(client: Client, message: Message):
     await message.delete()
 
 
-@Client.on_message(filters.command("cool", ".") & filters.me)
+@Client.on_message(filters.command(["cool"], ".") & filters.me)
 async def hello_world(client: Client, message: Message):
     mg = await edit_or_reply(
         message,
@@ -193,7 +193,7 @@ async def hello_world(client: Client, message: Message):
     await mg.edit(" ᴊᴏʀ sᴇ ʙᴏʟᴏ 𝐙𝐀𝐈𝐍 ᴘᴀᴘᴀ ᴊɪ ᴊᴀɪ💘")
 
 
-@Client.on_message(filters.command("brain", ".") & filters.me)
+@Client.on_message(filters.command(["brain"], ".") & filters.me)
 async def pijtau(client: Client, message: Message):
     if message.forward_from:
         return
@@ -222,7 +222,7 @@ async def pijtau(client: Client, message: Message):
         await message.edit(animation_chars[i % 14])
 
 
-@Client.on_message(filters.command("bomb", ".") & filters.me)
+@Client.on_message(filters.command(["bomb"], ".") & filters.me)
 async def gahite(client: Client, message: Message):
     if message.forward_from:
         return
@@ -248,7 +248,7 @@ async def gahite(client: Client, message: Message):
     await asyncio.sleep(2)
 
 
-@Client.on_message(filters.command("call", ".") & filters.me)
+@Client.on_message(filters.command(["call"], ".") & filters.me)
 async def hajqag(client: Client, message: Message):
     if message.forward_from:
         return
@@ -280,7 +280,7 @@ async def hajqag(client: Client, message: Message):
         await message.edit(animation_chars[i % 18])
 
 
-@Client.on_message(filters.command("kill", ".") & filters.me)
+@Client.on_message(filters.command(["kill"], ".") & filters.me)
 async def gahah(client: Client, message: Message):
     if message.forward_from:
         return
@@ -328,7 +328,7 @@ async def gagahkah(client: Client, message: Message):
 
 
 
-@Client.on_message(filters.command("ding", ".") & filters.me)
+@Client.on_message(filters.command(["ding"], ".") & filters.me)
 async def gkahgagw(client: Client, message: Message):
     animation_interval = 0.3
     animation_ttl = range(0, 30)
@@ -353,7 +353,7 @@ async def gkahgagw(client: Client, message: Message):
         await message.edit(animation_chars[i % 10])
 
 
-@Client.on_message(filters.command("hypo", ".") & filters.me)
+@Client.on_message(filters.command(["hypo"], ".") & filters.me)
 async def okihakga(client: Client, message: Message):
     if message.forward_from:
         return
@@ -401,7 +401,7 @@ async def gajjajay(client: Client, message: Message):
     await message.edit("EVERyBOdy iZ GangSTur UNtIL #Zainu ArRivE 🔥🔥🔥")
 
 
-@Client.on_message(filters.command("charging", ".") & filters.me)
+@Client.on_message(filters.command(["charging"], ".") & filters.me)
 async def timer_blankx(client: Client, message: Message):
     txt = (
         message.text[10:]
